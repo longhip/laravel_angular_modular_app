@@ -1,4 +1,4 @@
-## Steedoffice Core (Module).
+## Steedoffice Core (MVC).
 
 Author: longhip.dev@gmail.com
 

@@ -8,7 +8,7 @@
     <!-- DOC: Set data-auto-speed="200" to adjust the sub menu slide up/down speed -->
     <ul class="page-sidebar-menu" data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200" ng-class="{'page-sidebar-menu-closed': settings.layout.pageSidebarClosed}">
         <!-- DOC: To remove the search box from the sidebar you just need to completely remove the below "sidebar-search-wrapper" LI element -->
-        <li class="sidebar-search-wrapper">
+        <li class="sidebar-search-wrapper hide">
             <!-- BEGIN RESPONSIVE QUICK SEARCH FORM -->
             <!-- DOC: Apply "sidebar-search-bordered" class the below search form to have bordered search box -->
             <!-- DOC: Apply "sidebar-search-bordered sidebar-search-solid" class the below search form to have bordered & solid search box -->
@@ -33,12 +33,6 @@
                 <span class="title">Dashboard</span>
             </a>
         </li>
-        <li class="start nav-item">
-            <a href="#/app/upload-demo">
-                <i class="icon-paper-clip"></i>
-                <span class="title">File Upload Demo</span>
-            </a>
-        </li>
         <li class="nav-item">
             <a href="javascript:;" class="nav-link nav-toggle">
                 <i class="icon-settings"></i>
@@ -49,6 +43,11 @@
                 <li>
                     <a href="#/app/ui_bootstrap">
                         <i class="icon-puzzle"></i> UI Bootstrap</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#/app/file_upload">
+                        <i class="icon-paper-clip"></i> File Upload</span>
                     </a>
                 </li>
                 <li>

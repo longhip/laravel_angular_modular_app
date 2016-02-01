@@ -3,8 +3,8 @@
     <!-- BEGIN LOGO -->
     <div class="page-logo">
         <a href="#/app/dashboard">
-            <img src="{{settings.layoutPath}}/img/logo.png" alt="logo" class="logo-default" /> </a>
-        <div class="menu-toggler sidebar-toggler">
+            <strong ng-show="!isClose" style="font-family: 'Poiret One', cursive; color:#FFF;font-size:30px">Steed Office</strong></a>
+        <div class="menu-toggler sidebar-toggler" ng-click="isClose = !isClose">
             <!-- DOC: Remove the above "hide" to enable the sidebar toggler button on header -->
         </div>
     </div>
