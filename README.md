@@ -1,4 +1,4 @@
-## Laravel Angular MVC App.
+## Laravel Angular Modular App.
 
 Author: longhip.dev@gmail.com
 
